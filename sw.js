@@ -1,5 +1,5 @@
 // Titanic Pearl HR – service worker: keeps the app shell available and fast. Data calls (Supabase) are never cached.
-const CACHE = 'tp-shell-v1';
+const CACHE = 'tp-shell-v2';
 self.addEventListener('install', e => { self.skipWaiting(); });
 self.addEventListener('activate', e => {
   e.waitUntil((async () => {
